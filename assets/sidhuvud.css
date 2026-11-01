@@ -1,21 +1,25 @@
 /* Tidningen M – menyn i sidhuvudet (JetMenu).
- * Menypunkten med CSS-klassen "menu-cta" (Prenumerera kostnadsfritt) blir en ljusgul knapp
- * längst till höger i layouten. Klassen sätts under Utseende → Menyer → Main.
+ * Menypunkten med CSS-klassen "menu-cta" (Prenumerera kostnadsfritt) blir en turkos knapp
+ * längst till höger. Klassen sätts under Utseende → Menyer → Main.
+ * Färgen är menyns egen hover-färg (--jmm-top-hover-item-title-color, #9BFEFF), så den följer med om den ändras i Elementor.
  */
-/* Knappen centreras i höjdled och påverkar inte sidhuvudets höjd (negativ marginal = knappen är 14 px högre än menyraden). */
+/* Knappen centreras i höjdled och påverkar inte sidhuvudets höjd (negativ marginal = knappen är 14 px högre än menyraden).
+ * Högermarginalen 38 px linjerar knappen med innehållets högerkant på förstasidan (den beiga spalten). */
 .jet-mega-menu.jet-mega-menu--layout-horizontal .jet-mega-menu-list { align-items: center; }
-.jet-mega-menu.jet-mega-menu--layout-horizontal .jet-mega-menu-list > .jet-mega-menu-item.menu-cta { margin: -7px 0 -7px auto; }
+.jet-mega-menu.jet-mega-menu--layout-horizontal .jet-mega-menu-list > .jet-mega-menu-item.menu-cta { margin: -7px 38px -7px auto; }
 .jet-mega-menu-list > .menu-cta > .jet-mega-menu-item__inner {
 	padding: 0 !important;
 	background: none !important;
 }
 .jet-mega-menu-list > .menu-cta .jet-mega-menu-item__link {
-	padding: 12px 22px !important;
-	background: #FEDF87;
+	padding: 12px 26px !important;
+	border-radius: 50px;
+	background: var(--jmm-top-hover-item-title-color, #9BFEFF);
 	color: #0E0F10 !important;
 	transition: background-color .2s ease;
 }
 .jet-mega-menu-list > .menu-cta .jet-mega-menu-item__title { color: #0E0F10 !important; }
 .jet-mega-menu-list > .menu-cta .jet-mega-menu-item__link:hover,
-.jet-mega-menu-list > .menu-cta .jet-mega-menu-item__link:focus-visible { background: #FFEAA8; }
-.jet-mega-menu-list > .menu-cta .jet-mega-menu-item__link:focus-visible { outline: 2px solid #FEDF87; outline-offset: 3px; }
+.jet-mega-menu-list > .menu-cta .jet-mega-menu-item__link:focus-visible { background: #FFFFFF; }
+.jet-mega-menu-list > .menu-cta .jet-mega-menu-item__link:focus { outline: none; }
+.jet-mega-menu-list > .menu-cta .jet-mega-menu-item__link:focus-visible { outline: 2px solid #FFFFFF; outline-offset: 3px; }

@@ -5,7 +5,7 @@ WordPress-tillägg för tidningenm.se. Byggt av Studio Day.
 Sajtgemensamma designjusteringar som inte går att ställa in i tema eller tillägg:
 
 - `assets/mobilmeny.css` – mobilmenyn (Responsive Menu Pro): svart halvgenomskinlig bakgrund, vita menyval i Manrope versaler, ingen sökruta, menyknappen i höjd med logotypen.
-- `assets/sidhuvud.css` – menypunkten med CSS-klassen `menu-cta` (Prenumerera kostnadsfritt) blir en ljusgul knapp längst till höger i sidhuvudet, och en gul rad sist i mobilmenyn. Klassen sätts under Utseende → Menyer → Main.
+- `assets/sidhuvud.css` – menypunkten med CSS-klassen `menu-cta` (Prenumerera kostnadsfritt) blir en turkos knapp (menyns hover-färg, rundade hörn) längst till höger i sidhuvudet och sist i mobilmenyn. Klassen sätts under Utseende → Menyer → Main.
 
 Tillägget ligger i mappen `wp-content/plugins/m-design/` på sajten (zip-filen och mappen heter `m-design`, inte som repot).
 

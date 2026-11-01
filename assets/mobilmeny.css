@@ -30,7 +30,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
 	#responsive-menu-pro-button { top: 37px !important; }
 }
-/* "Prenumerera kostnadsfritt" (klassen menu-cta) som ljusgul knapp sist i mobilmenyn. */
+/* "Prenumerera kostnadsfritt" (klassen menu-cta) som turkos knapp sist i mobilmenyn, samma färg som menyns hover-färg. */
 #responsive-menu-pro-container #responsive-menu-pro li.menu-cta {
 	margin-top: 12px;
 }
@@ -45,11 +45,12 @@
 	font-size: 18px !important;
 	letter-spacing: normal !important;
 	white-space: normal;
-	background: #FEDF87 !important;
+	border-radius: 50px;
+	background: #9BFEFF !important;
 	color: #0E0F10 !important;
 }
 #responsive-menu-pro-container #responsive-menu-pro li.menu-cta > a.responsive-menu-pro-item-link:hover,
 #responsive-menu-pro-container #responsive-menu-pro li.menu-cta > a.responsive-menu-pro-item-link:focus-visible {
-	background: #FFEAA8 !important;
+	background: #FFFFFF !important;
 	color: #0E0F10 !important;
 }
