@@ -23,3 +23,10 @@
 #responsive-menu-pro-container #responsive-menu-pro-search-box {
 	display: none !important;
 }
+/* Menyknappen i höjd med logotypen i det högre sidhuvudet (mobil 88 px, surfplatta ca 80–90 px). */
+@media (max-width: 767px) {
+	#responsive-menu-pro-button { top: 23px !important; }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+	#responsive-menu-pro-button { top: 37px !important; }
+}
