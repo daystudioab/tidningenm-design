@@ -1,0 +1,25 @@
+/* Tidningen M – mobilmenyn (Responsive Menu Pro) */
+#responsive-menu-pro-container {
+	background: rgba(0, 0, 0, 0.93) !important;
+}
+#responsive-menu-pro-container #responsive-menu-pro-wrapper,
+#responsive-menu-pro-container #responsive-menu-pro li,
+#responsive-menu-pro-container #responsive-menu-pro li a {
+	background: transparent !important;
+}
+#responsive-menu-pro-container #responsive-menu-pro li a.responsive-menu-pro-item-link,
+#responsive-menu-pro-container #responsive-menu-pro li.responsive-menu-pro-current-item > a.responsive-menu-pro-item-link {
+	font-family: "Manrope", sans-serif !important;
+	text-transform: uppercase !important;
+	letter-spacing: 3px !important;
+	color: #fff !important;
+	border-color: transparent !important;
+}
+#responsive-menu-pro-container #responsive-menu-pro li a.responsive-menu-pro-item-link:hover,
+#responsive-menu-pro-container #responsive-menu-pro li a.responsive-menu-pro-item-link:focus-visible {
+	color: rgba(255, 255, 255, 0.65) !important;
+}
+/* Ingen sökruta i mobilmenyn. */
+#responsive-menu-pro-container #responsive-menu-pro-search-box {
+	display: none !important;
+}
