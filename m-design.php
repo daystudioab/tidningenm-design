@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Tidningen M – Design
  * Description:       Sajtgemensamma designjusteringar som inte går att ställa in i teman/tillägg: mobilmenyn (Responsive Menu Pro) – svart halvgenomskinlig bakgrund, vita menyval i Manrope versaler, ingen sökruta – och den ljusgula knappen Prenumerera kostnadsfritt i menyn (CSS-klassen menu-cta).
- * Version:           1.1.0
+ * Version:           1.1.1
  * Update URI:        https://github.com/daystudioab/tidningenm-design
  * Requires at least: 6.0
  * Author:            Tidningen M
@@ -12,7 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'MDS_VERSION', '1.1.0' );
+define( 'MDS_VERSION', '1.1.1' );
 
 /**
  * Uppdateringar från GitHub (daystudioab/tidningenm-design).

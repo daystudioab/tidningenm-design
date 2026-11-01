@@ -2,8 +2,9 @@
  * Menypunkten med CSS-klassen "menu-cta" (Prenumerera kostnadsfritt) blir en ljusgul knapp
  * längst till höger i layouten. Klassen sätts under Utseende → Menyer → Main.
  */
-.jet-mega-menu-list { align-items: center; }
-.jet-mega-menu-list > .jet-mega-menu-item.menu-cta { margin-left: auto; }
+/* Knappen centreras i höjdled och påverkar inte sidhuvudets höjd (negativ marginal = knappen är 14 px högre än menyraden). */
+.jet-mega-menu.jet-mega-menu--layout-horizontal .jet-mega-menu-list { align-items: center; }
+.jet-mega-menu.jet-mega-menu--layout-horizontal .jet-mega-menu-list > .jet-mega-menu-item.menu-cta { margin: -7px 0 -7px auto; }
 .jet-mega-menu-list > .menu-cta > .jet-mega-menu-item__inner {
 	padding: 0 !important;
 	background: none !important;
